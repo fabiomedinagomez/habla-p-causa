@@ -138,7 +138,41 @@ body{background:#fffdf3;color:var(--ink)}
 .pay-panel button,.yape-recipient button,.map-launch,.use-location,.back-btn{border:2px solid #0F2936;border-radius:16px}
 .close,.qty button{border:2px solid #0F2936}
 @media(max-width:560px){.menu-grid .dish{box-shadow:3px 4px 0 #0F2936}.feature-card{border-radius:16px}.add,.form button,.map-link,.delivery-submit,.reservation-whatsapp{border-radius:16px}}
+
+/* Sistema visual unificado: marfil, tinta de mural, rojo ají y amarillo causa. */
+:root{--navy:#0F2936;--deep:#0F2936;--sea:#18B8D1;--blue:#18B8D1;--gold:#FFB703;--ink:#0F2936;--muted:#2D3748;--paper:#FBF9F5;--line:#0F2936}
+html,body{background:#FBF9F5}
+body{font-family:'Inter','Open Sans',Arial,sans-serif;color:#2D3748}
+h1,h2,h3,.brand-name,.brand-tag,.dish h3,.modal-head h2{font-family:'Montserrat','Poppins',Arial,sans-serif;font-weight:800;color:#0F2936}
+p,.dish p,.section-desc,.hero p{color:#2D3748}
+.ticker{background:#18B8D1;color:#0F2936;border-bottom:2px solid #0F2936}
+.ticker a{color:#0F2936}
+.header{background:#FBF9F5;border-bottom:2px solid #0F2936;box-shadow:none}
+.featured,.menu-section,.reservation,.location,.values-section,.section{background:#FBF9F5!important;background-image:none!important}
+.featured:before,.reservation:before,.reservation:after,.featured:after{background-image:none!important;opacity:0!important}
+.footer{background:#0F2936;color:#fff}
+.menu-grid .dish,.feature-card,.form,.map-card,.value,.modal,.delivery-card,.map-dialog,.yape-card,.yape-recipient,.pay-panel,.delivery-summary{background:#fff;color:#0F2936;border:2px solid #0F2936;border-radius:16px;box-shadow:4px 4px 0 #0F2936}
+.feature-card{padding:24px}
+.dish-media{background:#fff}
+.story-photo{border:2px solid #0F2936;border-radius:16px;box-shadow:4px 4px 0 #0F2936}
+.story-badge,.dish-badge,.dish-badge.blue,.step-label,.mini.gold,.value .num,.eyebrow{background:#FFB703;color:#0F2936;border:2px solid #0F2936;box-shadow:2px 2px 0 #0F2936}
+.photo-caption b{color:#FFB703}
+.mini,.chip,.chip[data-filter="Familiar"]{background:#fff;color:#0F2936;border:2px solid #0F2936}
+.menu-grid .dish{border-radius:16px;box-shadow:4px 4px 0 #0F2936}
+.reserve-btn,.add,.add-feature,.form button,.delivery-submit,.reservation-whatsapp,.pay-panel button{background:#E63946;color:#fff;border:2px solid #0F2936;border-radius:16px;box-shadow:3px 3px 0 #0F2936}
+.cart-btn,.btn,.map-link,.map-launch,.use-location,.back-btn,.yape-recipient button,.close,.qty button{background:#fff;color:#0F2936;border:2px solid #0F2936;border-radius:16px;box-shadow:2px 2px 0 #0F2936}
+.close{border-radius:50%}
+.qty button{border-radius:8px}
+.btn.gold,.btn.ghost{background:#fff;color:#0F2936}
+.chip.active{background:#fff;color:#0F2936;border-color:#0F2936;box-shadow:inset 0 0 0 2px #18B8D1}
+.cart-btn:hover,.btn:hover,.map-link:hover,.map-launch:hover,.use-location:hover,.back-btn:hover,.yape-recipient button:hover,.close:hover,.qty button:hover,.chip:hover{background:#FFB703;color:#0F2936}
+.reserve-btn:hover,.add:hover,.add-feature:hover,.form button:hover,.delivery-submit:hover,.reservation-whatsapp:hover,.pay-panel button:hover{background:#C92F3C;color:#fff}
+@media(max-width:640px){.feature-card{padding:18px}.form,.map-card,.value,.delivery-card,.map-dialog,.yape-card,.yape-recipient,.pay-panel,.delivery-summary{box-shadow:3px 3px 0 #0F2936}}
+
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 <div class="ticker"><span class="live">●</span><span>🐟 Pesca del día: corvina fina y pulpo de roca, bien fresquitos</span><span>•</span><span>Abierto de Martes a Domingo (11:30 AM – 5:30 PM)</span><span>•</span><a href="#reservas">¡Separa tu mesa, causa!</a></div>
