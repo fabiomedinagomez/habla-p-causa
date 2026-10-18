@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b2636">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#16b6d0">
 <title>HABLA P CAUSA | Cevichería marina</title>
 <meta name="description" content="Cebiche fresquito, pesca del día y sazón peruana. ¡Cae con tu mancha a HABLA P CAUSA!">
 <style>
@@ -19,11 +19,88 @@
 @media(max-width:380px){.ticker{gap:8px;padding:0 10px;font-size:9px}.nav{gap:5px}.brand-name{font-size:16px}.brand-tag{font-size:7px;letter-spacing:.5px}.logo{width:34px;height:34px;border-radius:11px;font-size:20px}.cart-btn{padding:8px 7px;font-size:9px}.hamb{font-size:22px;padding:3px}.hero h1{font-size:42px}.tag{font-size:11px;padding:8px 11px}.section{padding-left:14px;padding-right:14px}.form{padding:15px}.form button{font-size:13px}.story-photo{min-height:290px}.story-badge{width:min(220px,calc(100% - 16px));padding:10px}.story-badge b{font-size:12px}.story-badge span{font-size:20px}.photo-caption{max-width:82%}.menu-head h2{font-size:35px}.reservation h2,.location h2{font-size:34px}.map-toolbar{width:100%}.use-location{white-space:normal}}
 /* Alinea los párrafos de contenido para una lectura más continua. */
 .hero p,.story-copy p,.feature-card p,.menu-head p,.dish p,.reservation p,.location p,.delivery-intro,.yape-intro,.map-intro{text-align:justify;text-justify:inter-word;hyphens:auto}
+
+/* Identidad visual inspirada en el letrero del local: celeste, amarillo y verde lima. */
+:root{--navy:#123b45;--deep:#12634e;--sea:#12a9c7;--blue:#18b8d1;--gold:#ffd43b;--ink:#17343b;--muted:#52696b;--paper:#fffdf3;--line:#dce9dd}
+body{background:#fffdf3;color:var(--ink)}
+.ticker{background:#83c928;color:#173b30}.ticker .live{color:#087a52}.ticker a{color:#143b39}
+.header{background:#e6faff;border-bottom:3px solid #ffd43b}
+.logo{background:linear-gradient(145deg,#ffd43b,#ffb92e);border:2px solid #17343b;color:#17343b;box-shadow:0 4px 0 #17343b26}
+.brand-name{font-family:'Trebuchet MS',Arial,sans-serif;font-weight:1000;letter-spacing:-1px;color:#123b45}
+.brand-tag{color:#087c59}
+.links{color:#23484b}.links a:hover{color:#087c59}
+.cart-btn{border-color:#a8d85f;background:#f3ffd9;color:#205532}
+.cart-count{background:#18b8d1;color:#103741}
+.reserve-btn{background:#83c928;color:#173b30;box-shadow:0 4px 0 #568c1e}
+.hamb{color:#087c81}
+.hero{background-image:linear-gradient(90deg,rgba(8,88,102,.88) 0%,rgba(7,126,145,.62) 43%,rgba(8,88,102,.12) 100%),linear-gradient(0deg,#104e3b44,transparent 45%),url('https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=2200&q=88')}
+.hero h1,.story h2,.section-title,.feature-card h2,.menu-head h2,.reservation h2,.location h2{font-family:'Trebuchet MS',Arial,sans-serif;font-weight:1000;letter-spacing:-1.5px}
+.tag{background:#ffd43b;color:#173b30;border:2px solid #fff0a0}
+.btn.gold,.add-feature{background:#ffd43b;color:#17343b;box-shadow:0 4px 0 #d7a91b}
+.btn.ghost{background:#13a9c5aa;border-color:#baf5fb}
+.stats{border-color:#d7f6ef88}
+.story-photo{border-color:#ffd43b;box-shadow:0 18px 0 #18b8d122}
+.photo-caption{background:#123b45ed;border:2px solid #ffd43b}
+.photo-caption b{color:#ffd43b}
+.story-badge{background:#eaffc8;border-color:#a8d85f;color:#173b30}
+.story-badge small{color:#49644a}
+.eyebrow{background:#eaffc8;border:1px solid #a8d85f;color:#17633f}
+.story h2,.section-title{color:#123b45}
+.story-copy p{color:#405c5c}
+.value{border-color:#d8e9a1;background:#fffef8}
+.value .num{background:#dff8fc;color:#087b96}
+.value:nth-child(2) .num{background:#fff1ad;color:#805500}
+.value:nth-child(3) .num{background:#e4ffc4;color:#287b36}
+.featured{background:#ffd43b}
+.feature-card{border:3px solid #fff1a7;background:linear-gradient(125deg,#18b8d1,#70d9df);color:#123b45;box-shadow:0 14px 0 #d7a91b}
+.feature-card p{color:#174a53}
+.feature-photo{border:3px solid #eaffc8}
+.price{color:#17633f}
+.price small{color:#28565d}
+.menu-section{background:#fffdf3}
+.search input{border-color:#b7e2e4}.search input:focus{border-color:#18b8d1;box-shadow:0 0 0 3px #18b8d133}
+.search span{color:#1688a0}
+.chip{border-color:#c9e4bd;background:#fff;color:#28534a}
+.chip.active{background:#18b8d1;color:#103741;border-color:#18b8d1}
+.quick-filters{color:#496263}
+.menu-grid .dish{border:2px solid #e6edc9;box-shadow:0 5px 0 #dce9dd}
+.dish-badge{background:#fff1ad;color:#775100}
+.dish-badge.blue{background:#dff8fc;color:#08748b}
+.dish h3{color:#123b45}
+.dish p{color:#4a6160}
+.dish-photo-note{background:#123b45dd;border:1px solid #dff8fc}
+.mini{background:#e4faff;color:#08748b}
+.mini.green{background:#eaffc8;color:#287b36}
+.mini.gold{background:#fff1ad;color:#805500}
+.add,.form button,.map-link,.delivery-submit{background:#16845a;color:#fff;box-shadow:0 3px 0 #0e6242}
+.add:hover,.form button:hover,.map-link:hover,.delivery-submit:hover{background:#0f704d}
+.reservation{background:#e4faff}
+.form{border:2px solid #cce990;box-shadow:0 8px 0 #d2e7dc}
+.field label{color:#355951}
+.field input,.field select,.delivery-form input,.delivery-form textarea{border-color:#c5dfca}
+.field input:focus,.field select:focus,.delivery-form input:focus,.delivery-form textarea:focus{border-color:#18b8d1;outline-color:#18b8d133}
+.form-status{color:#16794c}
+.reservation-whatsapp{background:#16845a;color:#fff}
+.reservation-whatsapp:hover{background:#0f704d}
+.location{background:#f1ffd9}
+.map-card{background:linear-gradient(135deg,#18b8d1,#b9eff0);color:#123b45;border:2px solid #83c928}
+.map-card small{color:#28565d}
+.footer{background:#123b45;border-top:6px solid #83c928;color:#e2f5ea}
+.footer .brand-name{color:#fff}
+.footer .brand-tag{color:#a8ee55}
+.footer small{color:#b9d5c8}
+.pay-panel{border-color:#bde4e3;background:#eafff5}
+.map-launch,.use-location{border-color:#9fd9dc;background:#e4faff;color:#08748b}
+.address-suggestions{border-color:#b7e2e4}
+.address-suggestion:hover,.address-suggestion:focus{background:#eafff5}
+.step-label{background:#e4faff;color:#08748b}
+.delivery-demo,.yape-note{background:#f6ffe6}
+@media(max-width:820px){.links{border-top:3px solid #ffd43b}.links.open{background:#e6faff}}
 </style>
 </head>
 <body>
 <div class="ticker"><span class="live">●</span><span>🐟 Pesca del día: corvina fina y pulpo de roca, bien fresquitos</span><span>•</span><span>Abierto de Martes a Domingo (11:30 AM – 5:30 PM)</span><span>•</span><a href="#reservas">¡Separa tu mesa, causa!</a></div>
-<header class="header"><nav class="nav" aria-label="Navegación principal"><a class="brand" href="#inicio"><span class="logo">⚓</span><span><span class="brand-name">HABLA P CAUSA</span><span class="brand-tag">CEVICHERÍA MARINA &amp; FAMILIAR</span></span></a><div class="links" id="navlinks"><a href="#inicio">Inicio</a><a href="#nosotros">Sobre Nosotros</a><a href="#carta">Nuestra Carta</a><a href="#especialidades">Especialidades</a><a href="#reservas">Reservas</a><a href="#ubicacion">Ubicación</a></div><div class="nav-actions"><button class="cart-btn" id="openCart" aria-label="Ver mi pedido">🛍️ &nbsp;Mi Pedido <span class="cart-count" id="cartCount">0</span></button><a class="reserve-btn" href="#reservas">¡Cae con tu mancha!　›</a><button class="hamb" id="hamb" aria-label="Abrir menú" aria-expanded="false">☰</button></div></nav></header>
+<header class="header"><nav class="nav" aria-label="Navegación principal"><a class="brand" href="#inicio"><span class="logo">🍔</span><span><span class="brand-name">HABLA P CAUSA</span><span class="brand-tag">CEVICHERÍA MARINA &amp; FAMILIAR</span></span></a><div class="links" id="navlinks"><a href="#inicio">Inicio</a><a href="#nosotros">Sobre Nosotros</a><a href="#carta">Nuestra Carta</a><a href="#especialidades">Especialidades</a><a href="#reservas">Reservas</a><a href="#ubicacion">Ubicación</a></div><div class="nav-actions"><button class="cart-btn" id="openCart" aria-label="Ver mi pedido">🛍️ &nbsp;Mi Pedido <span class="cart-count" id="cartCount">0</span></button><a class="reserve-btn" href="#reservas">¡Cae con tu mancha!　›</a><button class="hamb" id="hamb" aria-label="Abrir menú" aria-expanded="false">☰</button></div></nav></header>
 <main>
 <section class="hero" id="inicio"><div class="hero-inner"><div class="hero-copy"><span class="tag">🌊 &nbsp;¡Pescadito fresco y sazón bien peruana!</span><h1>¡Habla, causa! Del mar a tu mesa, fresquito y con harto sabor.</h1><p>Cebichito recién hecho, pesca del día y ese gustito criollo que nos reúne. Cae con la familia o con toda tu mancha; acá siempre hay sitio para compartir rico y pasarla chévere.</p><div class="actions"><a class="btn gold" href="#carta">Ver la carta, causa　→</a><a class="btn ghost" href="#nosotros">Conoce nuestra sazón</a></div><div class="stats"><div class="stat"><span class="stat-icon">🐟</span><span><strong>Pesca del día</strong><small>Fresquita, causa</small></span></div><div class="stat"><span class="stat-icon">👨‍👩‍👧</span><span><strong>Para toda la mancha</strong><small>Grandes y chicos</small></span></div><div class="stat"><span class="stat-icon">⭐</span><span><strong>Harto sabor</strong><small>Como en casa</small></span></div></div></div></div></section>
 <section class="section" id="nosotros"><div class="container story"><div class="story-photo"><div class="photo-caption"><b>UN RINCÓN BIEN MARINO</b>Buena conversa, mesa servida y la brisita de la costa.</div><div class="story-badge"><span>🌱</span><div><b>Pesca responsable, causa</b><small>Respetamos las vedas y cuidamos nuestro mar.</small></div></div></div><div class="story-copy"><span class="eyebrow">🌊 &nbsp;ASÍ ARRANCÓ LA SAZÓN</span><h2>De la caleta a tu mesa, causa.</h2><p><b>En HABLA P CAUSA</b> creemos que un buen cebiche se disfruta sin roche y en buena compañía. El secreto está en el pescado fresquito, el limón en su punto y esa mesa donde siempre cabe un amigo más. Aquí vienes a comer rico, conversar y sentirte como en casa.</p><p>Tempranito elegimos la pesca del día con pescadores de la zona: corvina, lenguado, bonito y lo que el mar nos regale. Cortamos todo al toque, exprimimos limoncito fresco y preparamos nuestros fondos con paciencia y harto cariño.</p><div class="values"><div class="value"><span class="num">01</span><b>Fresquito, causa</b><small>La pesca del día se corta al momento de tu pedido.</small></div><div class="value"><span class="num">02</span><b>Para toda la mancha</b><small>Hay opciones suaves y platos para los peques.</small></div><div class="value"><span class="num">03</span><b>Sazón de casa</b><small>Recetas criollazas hechas con cariño.</small></div></div></div></div></section>
@@ -32,7 +109,7 @@
 <section class="section reservation" id="reservas"><div class="container reservation-wrap"><div><span class="eyebrow">🍽️ &nbsp;TE ESPERAMOS</span><h2>¡Separa mesa y cae con tu mancha!</h2><p>Avísanos cuántos son y te guardamos un sitio para que disfruten tranquilos, causa. Atendemos de martes a domingo, de 11:30 a. m. a 5:30 p. m.</p><div class="info-list"><div class="info"><span>🕰️</span>Martes a domingo · 11:30 a. m. – 5:30 p. m.</div><div class="info"><span>📍</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Gotuzzo+N.%C2%B0+589%2C+La+Tingui%C3%B1a%2C+Ica%2C+Per%C3%BA+11003" target="_blank" rel="noopener noreferrer">Av. Gotuzzo N.° 589, La Tinguiña, Ica · 11003</a></div><div class="info"><span>📞</span><a href="https://wa.me/51979330695" target="_blank" rel="noopener noreferrer">WhatsApp · 979 330 695</a></div></div></div><form class="form" id="reservationForm"><div class="field"><label for="name">Tu nombre</label><input id="name" name="name" placeholder="Nombre y apellido" required></div><div class="field"><label for="phone">Teléfono</label><input id="phone" name="phone" type="tel" placeholder="999 999 999" required></div><div class="field"><label for="date">Fecha</label><input id="date" name="date" type="date" required></div><div class="field"><label for="time">Hora</label><select id="time" name="time"><option>12:00 p. m.</option><option>1:00 p. m.</option><option>2:00 p. m.</option><option>3:00 p. m.</option><option>4:00 p. m.</option><option>5:00 p. m.</option></select></div><div class="field full"><label for="guests">Personas</label><select id="guests" name="guests"><option>2 personas</option><option>3 personas</option><option>4 personas</option><option>5 personas</option><option>6 personas</option><option>7 o más personas</option></select></div><button type="submit">¡Quiero separar mi mesa!</button><p class="form-status" id="formStatus" aria-live="polite"></p><a class="reservation-whatsapp" id="sendReservationWhatsapp" href="#" target="_blank" rel="noopener noreferrer" hidden>Continuar por WhatsApp ↗</a></form></div></section>
 <section class="section location" id="ubicacion"><div class="container location-grid"><div><span class="eyebrow">📍 &nbsp;CÓMO LLEGAR</span><h2>¿Dónde cae la mancha?</h2><p>Visítanos en Av. Gotuzzo N.° 589, La Tinguiña, Ica, Perú · 11003.</p><a class="btn gold" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Gotuzzo+N.%C2%B0+589%2C+La+Tingui%C3%B1a%2C+Ica%2C+Per%C3%BA+11003" target="_blank" rel="noopener noreferrer">Cómo llegar　↗</a></div><div class="map-card"><div><div class="pin">📍</div><strong>HABLA P CAUSA</strong><small>Av. Gotuzzo N.° 589<br>La Tinguiña, Ica · Perú · 11003</small><a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Gotuzzo+N.%C2%B0+589%2C+La+Tingui%C3%B1a%2C+Ica%2C+Per%C3%BA+11003" target="_blank" rel="noopener noreferrer">Abrir en Google Maps ↗</a></div></div></div></section>
 </main>
-<footer class="footer"><div class="footer-inner"><a class="brand" href="#inicio"><span class="logo">⚓</span><span><span class="brand-name">HABLA P CAUSA</span><span class="brand-tag">CEVICHERÍA MARINA &amp; FAMILIAR</span></span></a><div class="footer-links"><a href="#nosotros">Nuestra historia</a><a href="#carta">La carta</a><a href="#reservas">Reservas</a><a href="#ubicacion">Ubicación</a></div><small>© 2026 HABLA P CAUSA · Sabor marino, conversa de causa</small></div></footer>
+<footer class="footer"><div class="footer-inner"><a class="brand" href="#inicio"><span class="logo">🍔</span><span><span class="brand-name">HABLA P CAUSA</span><span class="brand-tag">CEVICHERÍA MARINA &amp; FAMILIAR</span></span></a><div class="footer-links"><a href="#nosotros">Nuestra historia</a><a href="#carta">La carta</a><a href="#reservas">Reservas</a><a href="#ubicacion">Ubicación</a></div><small>© 2026 HABLA P CAUSA · Sabor marino, conversa de causa</small></div></footer>
 <div class="modal-backdrop" id="cartModal" role="dialog" aria-modal="true" aria-labelledby="cartTitle"><div class="modal"><div class="modal-head"><div><span class="step-label">PASO 1 DE 3 · TU PEDIDO</span><h2 id="cartTitle">Mi Pedido</h2></div><button class="close" id="closeCart" aria-label="Cerrar">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-total"><span>Total</span><span id="cartTotal">S/ 0.00</span></div><div class="pay-panel"><div class="pay-mark">📍</div><div class="pay-copy"><b>¿Todo listo, causa?</b><small>Seguimos con tu dirección de entrega</small></div><button id="continueDelivery" type="button">Continuar　→</button></div></div></div><div class="delivery-backdrop" id="deliveryModal" role="dialog" aria-modal="true" aria-labelledby="deliveryTitle"><div class="delivery-card"><div class="modal-head"><div><span class="step-label">PASO 2 DE 3 · ENTREGA</span><h2 id="deliveryTitle">¿A dónde te lo llevamos?</h2></div><button class="close" id="closeDelivery" aria-label="Cerrar">×</button></div><p class="delivery-intro">Pásanos tu dirección clarita y una referencia para que el delivery llegue sin roche, causa.</p><form id="deliveryForm" class="delivery-form"><div class="field full"><div class="label-row"><label for="deliveryAddress">Dirección exacta</label><button class="map-launch" id="openLocationMap" type="button">📍 Elegir en el mapita</button></div><div class="address-autocomplete"><input id="deliveryAddress" name="deliveryAddress" autocomplete="street-address" placeholder="Escribe tu calle, dirección o código postal" aria-autocomplete="list" aria-controls="addressSuggestions" aria-expanded="false" required><div class="address-suggestions" id="addressSuggestions" role="listbox" aria-label="Direcciones sugeridas" hidden></div></div><input id="deliveryLat" name="deliveryLat" type="hidden"><input id="deliveryLng" name="deliveryLng" type="hidden"><small class="field-hint" id="mapPickedStatus">Escribe al menos 3 letras y elige una sugerencia. La búsqueda usa Photon/Komoot; puedes corregir la dirección o el distrito.</small></div><div class="field full"><label for="deliveryDistrict">Distrito</label><input id="deliveryDistrict" name="deliveryDistrict" autocomplete="address-level2" placeholder="¿En qué distrito estás?" required></div><div class="field full"><label for="deliveryReference">Referencia de tu casa</label><textarea id="deliveryReference" name="deliveryReference" rows="3" placeholder="Ej.: casa de reja negra, frente al parque o al costado de la bodega" required></textarea><small class="field-hint">Con unas palabritas basta para ubicarte mejor.</small></div><p class="delivery-demo">Vista de muestra: por ahora, estos datos no se envían ni llegan al negocio.</p><div class="delivery-actions"><button class="back-btn" id="backToCart" type="button">← Volver al carrito</button><button class="delivery-submit" type="submit">Continuar a Yape　→</button></div></form></div></div><div class="map-backdrop" id="locationMapModal" role="dialog" aria-modal="true" aria-labelledby="mapTitle"><div class="map-dialog"><div class="modal-head"><div><span class="step-label">UBICACIÓN DE ENTREGA</span><h2 id="mapTitle">Marca tu casa en el mapa</h2></div><button class="close" id="closeLocationMap" aria-label="Cerrar mapa">×</button></div><p class="map-intro">Toca el punto donde vives para poner el pin. También puedes mover el mapa o arrastrar el pin, causa.</p><div class="map-toolbar"><button class="use-location" id="useMyLocation" type="button">◎ Usar mi ubicación</button><span id="mapStatus" aria-live="polite">Elige el punto de entrega en el mapa.</span></div><div id="deliveryMap" aria-label="Mapa interactivo para elegir la dirección de entrega"></div><p class="map-privacy">El mapa usa OpenFreeMap. Al confirmar el pin, sus coordenadas se consultan con Photon/Komoot para sugerir dirección y distrito; podrás corregirlos. <a href="https://openfreemap.org/privacy/" target="_blank" rel="noreferrer">Privacidad de OpenFreeMap</a> · <a href="https://github.com/komoot/photon" target="_blank" rel="noreferrer">Photon</a></p><div class="delivery-actions"><button class="back-btn" id="cancelMap" type="button">Cancelar</button><button class="delivery-submit" id="confirmMapLocation" type="button" disabled>Usar este punto　→</button></div></div></div><div class="yape-backdrop" id="yapeModal" role="dialog" aria-modal="true" aria-labelledby="yapeTitle"><div class="yape-card"><div class="modal-head"><h2 id="yapeTitle">Tu pago con Yape</h2><button class="close" id="closeYape" aria-label="Cerrar">×</button></div><p class="yape-intro"><span class="step-label">PASO 3 DE 3 · PAGO</span><br>¡Ya casi, causa! Abre Yape y envía el total a este número:</p><div class="yape-recipient"><span>YAPE DE HABLA P CAUSA</span><strong id="yapeNumber">975 393 567</strong><button id="copyYape" type="button">Copiar número</button></div><div class="yape-amount"><span>Total de tu pedido</span><strong id="yapeTotal">S/ 0.00</strong></div><div class="delivery-summary"><b>Tu pedido va para:</b><span id="yapeAddressSummary"></span><small id="yapeReferenceSummary"></small><small id="yapeMapSummary">Pin marcado en el mapa ✓</small></div><ol class="yape-steps"><li>En Yape, toca <b>Yapear</b> e ingresa el número de arriba.</li><li>Antes de confirmar, verifica que el número sea el de HABLA P CAUSA y revisa bien el nombre y el monto que aparecen en Yape.</li><li>Confirma el pago en tu app. El pedido se confirma cuando el negocio verifica el yapeo.</li></ol><button class="edit-delivery" id="editDelivery" type="button">← Cambiar dirección de entrega</button><p class="yape-note">No compartas tu clave ni códigos de seguridad. Verifica el nombre y el monto dentro de Yape antes de pagar.</p></div></div><div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
 const dishes=[
